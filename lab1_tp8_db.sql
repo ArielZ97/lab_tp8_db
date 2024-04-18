@@ -20,9 +20,9 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `lab1_tp8_db`
 --
-
+CREATE DATABASE IF NOT EXISTS lab1_tp8_db CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 -- --------------------------------------------------------
-
+USE lab1_tp8_db;
 --
 -- Estructura de tabla para la tabla `cliente`
 --
