@@ -11,8 +11,8 @@
 -- -----------------------------------------------------
 -- Schema ab1_tp8_db
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `ab1_tp8_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
-USE `ab1_tp8_db` ;
+CREATE SCHEMA IF NOT EXISTS ab1_tp8_db DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE ab1_tp8_db ;
 
 -- -----------------------------------------------------
 -- Table `ab1_tp8_db`.`cliente`
