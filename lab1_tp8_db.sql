@@ -71,7 +71,7 @@ ENGINE = InnoDB;
 -- Table `ab1_tp8_db`.`visita`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `ab1_tp8_db`.`visita` (
-  `idvisita` INT NOT NULL,
+  `idvisita` INT NOT NULL AUTO_INCREMENT,
   `mascotas_idmascotas` INT NOT NULL,
   `tratamiento_idTratamiento` INT NOT NULL,
   `fechaVisita` DATE NULL,
